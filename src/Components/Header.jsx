@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       {/* nav */}
-      <nav className="mt-3">
+      <nav className="mt-3 ">
         <div className=" container py_6">
           <div className="d-flex align-items-center justify-content-between">
             <a href="/">

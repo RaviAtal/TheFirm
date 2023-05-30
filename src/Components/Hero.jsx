@@ -5,7 +5,7 @@ import c_img from "../assets/img/png/C_img.png";
 const Hero = () => {
   return (
     <>
-      <section className="bg_hero position-relative">
+      <section className="bg_hero position-relative overflow-hidden">
         <div className="container position-relative">
           <div className="row align-items-center flex-column-reverse flex-lg-column py-3 py-lg-0 align-content-start">
             <div className="col-lg-6 z_index_2 position-relative">
@@ -23,7 +23,7 @@ const Hero = () => {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy.
                 </p>
-                <button className="mt-4 bg_yellow text-white border-0 rounded-2 py-2 px-4 w_157 ff_Nunito fs_xsm fw-bold">
+                <button className="mt-4 bg_yellow text-white border-0 rounded-2 py-2 px-4 w_157 ff_Nunito fs_xsm fw-bold read_nore_hover normal_trasition">
                   Get in Touch
                 </button>
               </div>
