@@ -15,7 +15,7 @@ function ChooseUs() {
             <span className="us_line position-relative"> Us</span>
           </h2>
           <div className=" d-flex justify-content-center">
-            <p className=" ff_Nunito text-center fs_xsm text_blacker leter_spacer_p2 col-8 pt-4 m-0">
+            <p className=" ff_Nunito text-center fs_xsm text_blacker leter_spacer_p2 col-lg-8 pt-4 m-0">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -199,7 +199,7 @@ function ChooseUs() {
                   </h6>
                 </div>
                 <div className="ms-4 ps-5 mt-3">
-                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-lg-4 mb-3">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry
                     standard dummy text ever since the 1500s, when an unknown
@@ -249,7 +249,7 @@ function ChooseUs() {
                   </h6>
                 </div>
                 <div className="ms-4 ps-5 mt-3">
-                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-lg-4 mb-3">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry
                     standard dummy text ever since the 1500s, when an unknown
@@ -299,7 +299,7 @@ function ChooseUs() {
                   </h6>
                 </div>
                 <div className="ms-4 ps-5 mt-3">
-                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-lg-4 mb-3">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry
                     standard dummy text ever since the 1500s, when an unknown
@@ -349,7 +349,7 @@ function ChooseUs() {
                   </h6>
                 </div>
                 <div className="ms-4 ps-5 mt-3">
-                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-lg-4 mb-3">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry
                     standard dummy text ever since the 1500s, when an unknown

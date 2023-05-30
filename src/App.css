@@ -261,12 +261,36 @@
   transition: all 0.6s ease-in-out;
 }
 /************* media screen********** */
+@media (max-width: 576px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-30: 16px;
+    --fs-sm: 20px;
+    --fs-m: 18px;
+  }
+}
+@media (min-width: 576px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-30: 20px;
+    --fs-sm: 30px;
+    --fs-m: 24px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-30: 25px;
+    --fs-m: 34px;
+    --fs-sm: 38px;
+  }
+}
 @media (min-width: 992px) {
   :root {
     --fs-xsm: 18px;
+    --fs-30: 30px;
     --fs-sm: 48px;
     --fs-m: 44px;
-    --fs-30: 30px;
   }
   .position_lg_absolute {
     position: absolute;
