@@ -165,8 +165,15 @@ function ChooseUs() {
             </div>
           </div>
           {/* item */}
-          <div className=" bg-white rounded-5 py-5 px-4 mt-5 row">
-            <div className="col-6">
+          <div
+            onClick={() => setactive(2)}
+            className={
+              active === 2
+                ? "bg-white rounded-5 py-5 px-4 mt-5 row d-flex"
+                : "bg-white rounded-5 py-5 px-4 mt-5 row d-none"
+            }
+          >
+            <div className="col-lg-6">
               <div className="p-2 box_shadow rounded-5">
                 <img
                   className="w-100 rounded-5"
@@ -176,7 +183,7 @@ function ChooseUs() {
               </div>
             </div>
             {/* text */}
-            <div className="col-6">
+            <div className="col-lg-6 mt-5 mt-lg-0">
               <div className=" ">
                 {/* brand */}
                 <div className="d-flex align-items-center">
@@ -189,6 +196,156 @@ function ChooseUs() {
                   </div>
                   <h6 className=" ff_Nunito fw-bold fs_30  position-relative z_index_1 m-0 m-1 Branding_line position-relative m-0 ms-3">
                     Branding
+                  </h6>
+                </div>
+                <div className="ms-4 ps-5 mt-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type
+                  </p>
+                  <button
+                    className="bg_blacker box_shadow_readmore rounded-2 text-white
+                   ff_Nunito fs_xsm text-nowrap px-4 py-2 mt-4 read_nore_hover"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            onClick={() => setactive(1)}
+            className={
+              active === 1
+                ? "bg-white rounded-5 py-5 px-4 mt-5 row d-flex"
+                : "bg-white rounded-5 py-5 px-4 mt-5 row d-none"
+            }
+          >
+            <div className="col-lg-6">
+              <div className="p-2 box_shadow rounded-5">
+                <img
+                  className="w-100 rounded-5"
+                  src={brand_img}
+                  alt="brand_img"
+                />
+              </div>
+            </div>
+            {/* text */}
+            <div className="col-lg-6 mt-5 mt-lg-0">
+              <div className=" ">
+                {/* Market Research */}
+                <div className="d-flex align-items-center">
+                  <div className=" bg_yellow p_30 rounded_50percent position-relative">
+                    <img
+                      className="w-75 position-absolute top_9 right_8 speaker_animation"
+                      src={speaker}
+                      alt="speaker"
+                    />
+                  </div>
+                  <h6 className=" ff_Nunito fw-bold fs_30  position-relative z_index_1 m-0 m-1 Branding_line position-relative m-0 ms-3">
+                    Market Research
+                  </h6>
+                </div>
+                <div className="ms-4 ps-5 mt-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type
+                  </p>
+                  <button
+                    className="bg_blacker box_shadow_readmore rounded-2 text-white
+                   ff_Nunito fs_xsm text-nowrap px-4 py-2 mt-4 read_nore_hover"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            onClick={() => setactive(3)}
+            className={
+              active === 3
+                ? "bg-white rounded-5 py-5 px-4 mt-5 row d-flex"
+                : "bg-white rounded-5 py-5 px-4 mt-5 row d-none"
+            }
+          >
+            <div className="col-lg-6">
+              <div className="p-2 box_shadow rounded-5">
+                <img
+                  className="w-100 rounded-5"
+                  src={brand_img}
+                  alt="brand_img"
+                />
+              </div>
+            </div>
+            {/* text */}
+            <div className="col-lg-6 mt-5 mt-lg-0">
+              <div className=" ">
+                {/* Reporting */}
+                <div className="d-flex align-items-center">
+                  <div className=" bg_yellow p_30 rounded_50percent position-relative">
+                    <img
+                      className="w-75 position-absolute top_9 right_8 speaker_animation"
+                      src={speaker}
+                      alt="speaker"
+                    />
+                  </div>
+                  <h6 className=" ff_Nunito fw-bold fs_30  position-relative z_index_1 m-0 m-1 Branding_line position-relative m-0 ms-3">
+                    Reporting
+                  </h6>
+                </div>
+                <div className="ms-4 ps-5 mt-3">
+                  <p className=" m-0 ff_Lora fs_xsm leter_spacer_p2 text_blacker pe-4 mb-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type
+                  </p>
+                  <button
+                    className="bg_blacker box_shadow_readmore rounded-2 text-white
+                   ff_Nunito fs_xsm text-nowrap px-4 py-2 mt-4 read_nore_hover"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            onClick={() => setactive(4)}
+            className={
+              active === 4
+                ? "bg-white rounded-5 py-5 px-4 mt-5 row d-flex"
+                : "bg-white rounded-5 py-5 px-4 mt-5 row d-none"
+            }
+          >
+            <div className="col-lg-6">
+              <div className="p-2 box_shadow rounded-5">
+                <img
+                  className="w-100 rounded-5"
+                  src={brand_img}
+                  alt="brand_img"
+                />
+              </div>
+            </div>
+            {/* text */}
+            <div className="col-lg-6 mt-5 mt-lg-0">
+              <div className=" ">
+                {/* Data Analysis */}
+                <div className="d-flex align-items-center">
+                  <div className=" bg_yellow p_30 rounded_50percent position-relative">
+                    <img
+                      className="w-75 position-absolute top_9 right_8 speaker_animation"
+                      src={speaker}
+                      alt="speaker"
+                    />
+                  </div>
+                  <h6 className=" ff_Nunito fw-bold fs_30  position-relative z_index_1 m-0 m-1 Branding_line position-relative m-0 ms-3">
+                    Data Analysis
                   </h6>
                 </div>
                 <div className="ms-4 ps-5 mt-3">
