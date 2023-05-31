@@ -23,11 +23,9 @@ function ChooseUs() {
               survived not only five centuries,
             </p>
           </div>
-          {/*scrool bar  */}
           <div className="scroll w_300px_over_f_x_500_scrl scroll_none pb-3">
             <div className=" d-xl-flex justify-content-center">
               <div className="d-flex justify-content-between mt-5 pt-1 col-lg-10 gap-5">
-                {/* 1 */}
                 <div className=" position-relative z_index_0 ms-5 me-3">
                   <img
                     onClick={() => setactive(1)}
@@ -60,7 +58,6 @@ function ChooseUs() {
                     Market Research
                   </button>
                 </div>
-                {/* 2 */}
                 <div className="position-relative z_index_0 mx-3">
                   <img
                     onClick={() => setactive(2)}
@@ -93,7 +90,6 @@ function ChooseUs() {
                     Branding
                   </button>
                 </div>
-                {/* 3 */}
                 <div className="position-relative z_index_0 mx-3">
                   {" "}
                   <img
@@ -127,9 +123,7 @@ function ChooseUs() {
                     Reporting
                   </button>
                 </div>
-                {/*4  */}
                 <div className="position-relative z_index_0 mx-3">
-                  {" "}
                   <img
                     onClick={() => setactive(4)}
                     className={
@@ -164,7 +158,6 @@ function ChooseUs() {
               </div>
             </div>
           </div>
-          {/* item */}
           <div
             onClick={() => setactive(2)}
             className={
@@ -182,10 +175,8 @@ function ChooseUs() {
                 />
               </div>
             </div>
-            {/* text */}
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div className=" ">
-                {/* brand */}
                 <div className="d-flex align-items-center">
                   <div className=" bg_yellow p_30 rounded_50percent position-relative">
                     <img
@@ -232,10 +223,8 @@ function ChooseUs() {
                 />
               </div>
             </div>
-            {/* text */}
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div className=" ">
-                {/* Market Research */}
                 <div className="d-flex align-items-center">
                   <div className=" bg_yellow p_30 rounded_50percent position-relative">
                     <img
@@ -282,10 +271,8 @@ function ChooseUs() {
                 />
               </div>
             </div>
-            {/* text */}
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div className=" ">
-                {/* Reporting */}
                 <div className="d-flex align-items-center">
                   <div className=" bg_yellow p_30 rounded_50percent position-relative">
                     <img
@@ -332,10 +319,8 @@ function ChooseUs() {
                 />
               </div>
             </div>
-            {/* text */}
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div className=" ">
-                {/* Data Analysis */}
                 <div className="d-flex align-items-center">
                   <div className=" bg_yellow p_30 rounded_50percent position-relative">
                     <img
